@@ -1,0 +1,5 @@
+1) git init
+2) git add.
+3) git commit -m "Commit_2"
+4) git remote add origin https://github.com/GioErco03/   UFS08-File-Example.git
+5) git push -u origin master
