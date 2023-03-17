@@ -1,0 +1,29 @@
+body{ 
+    box-sizing: border-box;
+    border: 2px solid blue;
+}
+
+a {
+    padding: 16px;
+    border: 1px solid chartreuse;
+    display: inline;
+    width: 90px;
+}
+#mainTitle{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: cornflowerblue;
+}
+.title{
+    font-size: 1,5px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    background-color: aqua;
+}
+a.anchor1{
+    display: inline-block;
+    text-transform: uppercase;
+    max-width: 25%;
+}
