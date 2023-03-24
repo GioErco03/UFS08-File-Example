@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./3-css.css" />
+        <script defer src="./3-js.js"></script>
+        <title>Temperature in alcune località</title>
+    </head>
+    <body>
+        <h1>Temperature in alcune località del mondo</h1>
+        <select name="menuTendina" id="menuTendina">
+            <option value="Kelvin">Kelvin</option>
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+        <section class="temperatureWrapper">
+            <div id="temperatureItaly" class="temperatureContry">
+                <p><b><a style="color: blue; text-decoration: none;" href="https://www.meteo.it/meteo/milano-15146">Milano</a></b> Italia</p>
+                <img src="./image/MILANO-TAG.jpg" alt="" width="200px" height="200px">
+                <span
+                    id="temperatureItalyKelvin"
+                    class="temperatureKelvin"   
+                ></span>
+                <span
+                    id="temperatureItalyCelsius"
+                    class="temperatureCelsius"
+                ></span>
+                <span
+                    id="temperatureItalyFahrenheit"
+                    class="temperatureFahrenheit"
+                ></span>
+            </div>
+            <div id="temperatureThailand" class="temperatureContry">
+                <p><b><a style="color: blue; text-decoration: none;" href="https://www.meteo.it/meteo/milano-15146">Bangkok</a></b> Thailandia</p>
+                <img src="./image/Bangkok.jpg" alt="" width="200px" height="200px">
+                <span
+                    id="temperatureBangkokKelvin"
+                    class="temperatureKelvin"
+                ></span>
+                <span
+                    id="temperatureBangkokCelsius"
+                    class="temperatureCelsius"
+                ></span>
+                <span
+                    id="temperatureBangkokFahrenheit"
+                    class="temperatureFahrenheit"
+                ></span>
+            </div>
+            <div id="temperatureUsa" class="temperatureContry">
+                <p><b><a style="color: blue; text-decoration: none;" href="https://www.meteo.it/meteo/los-angeles-2002180">Los Angeles</a></b> USA</p>
+                <img src="./image/Los Angeles.jpg" alt="" width="200px" height="200px">    
+                <span
+                    id="temperatureLosAngelesKelvin"
+                    class="temperatureKelvin"
+                ></span>
+                <span
+                    id="temperatureLosAngelesCelsius"
+                    class="temperatureCelsius"
+                ></span>
+                <span
+                    id="temperatureLosAngelesFahrenheit"
+                    class="temperatureFahrenheit"
+                ></span>
+            </div>
+        </section>
+    </body>
+</html>

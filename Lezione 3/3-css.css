@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.temperatureWrapper {
+    border: 2px solid palevioletred;
+    padding: 24px;
+}
+.temperatureKelvin{
+    padding: 4px;
+    color: red;
+}
+.temperatureCelsius{
+    padding: 4px;
+    color: blue;
+}
+.temperatureFahrenheit{
+    padding: 4px;
+    color: yellow;
+}
+.hidden{
+    visibility: hidden;
+}

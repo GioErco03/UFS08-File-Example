@@ -2,7 +2,6 @@ nav {
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
-    justify-content: flex-end;
     padding-right: 13%;
 
 }
@@ -32,5 +31,9 @@ body{
     border-top: 3px solid black;
     display: flex;
     text-align: center;
+    align-items: start;
+}
+.img_its_png{
+    display: flex;
     align-items: start;
 }
