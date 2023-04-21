@@ -22,3 +22,86 @@
 .hidden{
     visibility: hidden;
 }
+/* Imposta il font di default e il colore di sfondo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Stile per l'intestazione principale */
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+ 
+}
+  /* Stile per la tendina di selezione */
+  select {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Stile per i contenitori delle temperature */
+  .temperatureWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .temperatureContry {
+    flex-basis: calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #menuTendina {
+    display: block; /* Forza il display del selettore a blocco */
+    margin: 0 auto; /* Aggiunge una margine laterale automatica per centrare l'elemento */
+    text-align: center; /* Centra anche il testo all'interno dell'elemento */
+  }
+  
+  
+  .temperatureContry p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .temperatureContry img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  /* Stile per le temperature */
+  .temperatureKelvin,
+  .temperatureCelsius,
+  .temperatureFahrenheit {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .temperatureWrapper {
+    /* ...rest of the styles... */
+    margin: 0 auto; /* Aggiunge una margine laterale automatica per centrare l'elemento */
+    text-align: center; /* Centra anche i figli all'interno dell'elemento */
+  }
+  
+  .temperatureKelvin:before {
+    content: "Temperatura in Kelvin: ";
+  }
+  
+  .temperatureCelsius:before {
+    content: "Temperatura in Celsius: ";
+  }
+  
+  .temperatureFahrenheit:before {
+    content: "Temperatura in Fahrenheit: ";
+  }
+  
