@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <title>Frontend Mentor | Tip calculator app</title>
+    </head>
+    <body>
+        <div class="general_box">
+            <div class="clm1">
+                <p id="p_bill">Bill</p>
+                <input type="text" id="bill" placeholder="0.00" />
+                <p>Select tip %</p>
+                <div class="percentual">
+                    <button id="btn1" class="btn1">5%</button>
+                    <button id="btn2" class="btn2">10%</button>
+                    <button id="btn3" class="btn3">15%</button>
+                    <button id="btn4" class="btn4">25%</button>
+                    <button id="btn5" class="btn5">50%</button>
+                    <input type="text" id="custom_input" placeholder="custom" />
+                </div>
+                <p>Number of people</p>
+                <input type="text" id="people" placeholder="0.00" />
+            </div>
+
+            <div class="clm2">
+                <div class="container_clm2">
+                    <div class="grid_clm2">
+                        <div class="clm1_row1">
+                            <h4>Tip Amount</h4>
+                            <p>/ person</p>
+                        </div>
+                        <div class="div_cash">
+                            <p class="cash">$0.00</p>
+                        </div>
+                        <div class="clm1_row2">
+                            <h4>Total</h4>
+                            <p>/ person</p>
+                        </div>
+                        <div class="div_cash">
+                            <p class="cash">$0.00</p>
+                        </div>
+                    </div>
+                    <button id="reset" class="reset">RESET</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+</html>

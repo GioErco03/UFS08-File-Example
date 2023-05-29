@@ -1,0 +1,239 @@
+:root {
+    --Josefin_sans: 'Josefin Sans', sans-serif;
+    --Space_mono: 'Space Mono', monospace;
+    --light_blue: #c7e8f3;
+    --light_magenta: #bf9aca;
+    --magenta: #8e4162;
+    --jet: #41393e;
+    --pink: #eda2c0;
+}
+body {
+    height: 100%;
+    margin: 0px;
+    font-family: var(--Josefin_sans);
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5vh;
+}
+.link_navBar a {
+    text-decoration: none;
+    margin-right: 3vh;
+    color: white;
+}
+.logo_link_navBar {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 10vh;
+}
+.link_navBar {
+    margin-left: 5vh;
+}
+.button_navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10vh;
+}
+.button_navBar button {
+    margin-left: 3vh;
+    padding: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    color: white;
+}
+#log_in {
+    background-color: transparent;
+    border: 2px solid white;
+}
+#sign_in {
+    background-color: #8e4162;
+    border: none;
+}
+header {
+    background-image: url('./exam/assets/bg-desktop.png');
+    background-size: 100% 80vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 78vh;
+}
+.title_header {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 10vh;
+    color: white;
+    margin-top: 10vh;
+}
+.title_header h1 {
+    font-size: 68px;
+    margin: 0px;
+    padding: 0px;
+}
+.title_header p {
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 4vh;
+    padding-left: 1vh;
+}
+.search_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light_magenta);
+    height: 55vh;
+}
+.search_box h1 {
+    font-size: 38px;
+    margin-top: 10vh;
+}
+.search_box input {
+    margin-top: 2vh;
+    width: 90vh;
+    height: 6vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    font-size: 24px;
+}
+.artist_box {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--jet);
+    height: 125vh;
+    color: white;
+}
+.location_of_event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text_artist_box {
+    padding-left: 10vh;
+}
+.events_box p img {
+    width: 3vh;
+    margin-right: 1vh;
+}
+.events_box p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.artist_box h1 {
+    font-size: 38px;
+    margin-top: 10vh;
+    color: var(--light_blue);
+}
+.artist_box p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.events_box {
+    display: flex;
+    padding: 10vh;
+}
+.events_box img {
+    width: 30vh;
+}
+.artist_box button {
+    margin-top: 8vh;
+    padding: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    width: 30vh;
+    background-color: #8e4162;
+    border: none;
+    margin-left: 10vh;
+}
+.artist_box button a {
+    text-decoration: none;
+    color: white;
+}
+.event {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 10px;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vh;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+.geners_box {
+    background-color: var(--light_blue);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.allButton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.geners_box h1 {
+    color: var(--magenta);
+}
+.allButton button {
+    background-color: transparent;
+    border: 2px solid var(--magenta);
+    border-radius: 30px;
+    padding: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    margin-left: 2.5vh;
+    margin-top: 1vh;
+}
+.allButton button a {
+    text-decoration: none;
+    color: var(--magenta);
+}
+.footer_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--magenta);
+    height: 50vh;
+}
+#terms {
+    color: white;
+}
+#copyright {
+    color: white;
+}
+.nav_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6vh;
+}
+.nav_footer p {
+    margin-left: 3vh;
+}
+.nav_footer p a {
+    text-decoration: none;
+    color: white;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6vh;
+}
+.social img {
+    margin-left: 3vh;
+    height: 5vh;
+}

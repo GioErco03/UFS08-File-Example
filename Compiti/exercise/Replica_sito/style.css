@@ -42,11 +42,12 @@ body {
 }
 
 #submit-appbar {
+    display: flex;
+    align-items: center;
     height: 7vh;
     background-color: black;
     color: white;
     border-radius: 10px;
-    text-align: center;
     text-decoration: none;
     border: 1px solid white;
     margin-right: 2vh;
@@ -56,6 +57,8 @@ body {
 }
 
 #signin-appbar {
+    display: flex;
+    align-items: center;
     height: 7vh;
     background-color: #4c5fd5;
     color: white;
@@ -259,6 +262,8 @@ body {
     }
 
     #submit-appbar {
+        display: flex;
+        align-items: center;
         height: 5vh;
         background-color: black;
         color: white;
@@ -273,6 +278,8 @@ body {
     }
 
     #signin-appbar {
+        display: flex;
+        align-items: center;
         height: 5vh;
         background-color: #4c5fd5;
         color: white;

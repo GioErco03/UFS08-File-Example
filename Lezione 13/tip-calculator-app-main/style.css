@@ -1,0 +1,128 @@
+:root {
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Grayish-cyan: hsl(184, 14%, 56%);
+    --Light-grayish-cyan: hsl(185, 41%, 84%);
+    --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --White: hsl(0, 0%, 100%);
+    --Strong-cyan: hsl(172, 67%, 45%);
+}
+
+html,
+body {
+    background-color: var(--Strong-cyan);
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    box-sizing: border-box;
+}
+.general_box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vh;
+    column-gap: 10px;
+}
+.clm2 {
+    grid-column: 2/3;
+}
+.clm1 {
+    padding-left: 15px;
+    padding-right: 20px;
+    grid-column: 1/2;
+}
+p {
+    color: var(--Dark-grayish-cyan);
+}
+#p_bill {
+    margin-bottom: 0;
+}
+#bill {
+    font-size: 24px;
+    background-color: var(--Very-light-grayish-cyan);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 95%;
+    text-align: end;
+}
+#people {
+    font-size: 24px;
+    background-color: var(--Very-light-grayish-cyan);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 95%;
+    text-align: end;
+}
+.container_clm2 {
+    background-color: var(--Very-dark-cyan);
+    border-radius: 10px;
+    padding: 20px;
+    height: 39vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.percentual {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.clm1 button {
+    margin: 5px;
+    padding: 10px;
+    background-color: var(--Very-dark-cyan);
+    color: var(--White);
+    border: none;
+    border-radius: 10px;
+}
+#custom_input {
+    margin: 5px;
+    padding: 10px;
+    background-color: var(--Very-dark-cyan);
+    color: var(--White);
+    border: none;
+    border-radius: 10px;
+    width: 12vh;
+}
+.clm1 button:hover {
+    background-color: var(--Strong-cyan);
+    color: var(--Very-dark-cyan);
+}
+.grid_clm2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+    row-gap: 50px;
+}
+.clm2 h4 {
+    color: var(--White);
+    margin: 0;
+}
+.cash {
+    margin: 0;
+    font-size: 32px;
+    color: var(--Strong-cyan);
+    text-align: end;
+}
+.clm1_row1 p {
+    margin: 0;
+}
+.clm1_row2 p {
+    margin: 0;
+}
+.reset {
+    background-color: var(--Strong-cyan);
+    border: none;
+    text-align: center;
+    width: 45vh;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 32;
+}
